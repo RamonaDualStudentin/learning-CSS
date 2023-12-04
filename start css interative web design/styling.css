@@ -1,0 +1,140 @@
+
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+#addressName{
+  margin-top: 10px;
+  text-align: right;
+
+}
+
+body {
+  font-family: 'Tahoma', sans-serif;
+  font-size: 13px;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+header {
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid grey; 
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+#companyname {
+  margin-top: 10px;
+}
+
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  display: block; 
+}
+
+
+form .name-fields {
+  display:inline-block; 
+  gap: 10px; 
+  box-sizing: border-box;
+}
+
+
+form #city,
+form #state {
+  display: inline-block;
+  width: calc(50% - 5px); 
+  box-sizing: border-box;
+}
+
+
+form input[type="text"] {
+  margin-right: 20px; 
+}
+
+
+form input[type="radio"] {
+  margin-right: 5px;
+}
+
+
+
+
+
+.button {
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 20px auto 0; 
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: block; }
+
+.button:hover {
+  background-color: whitesmoke;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 13px;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

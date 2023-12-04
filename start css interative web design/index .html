@@ -1,0 +1,181 @@
+<div class="container">
+  <!-- Your existing HTML content goes here -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="styling.css" rel="stylesheet"/>
+    <title>ACME GLOBAL COMPANY</title>
+  </head>
+  <body>
+    <header>
+      <img src="logo.jpg" alt="Company Logo" />
+      <h1 id="companyname">
+        ACME GLOBAL 
+        <span id="C">COMPANY</span> 
+      </h1>
+
+      <address id="addressName">
+        ACME GLOBAL COMPANY 1234 Maple Street, Houston, TX 77002
+        example@example.com www.example.com (123) 123-4567
+      </address>
+    </header>
+
+    <form>
+      <h2 id="customerDetails">Customer Details:</h2>
+      <div>
+        <label for="first-name">Full Name *</label>
+        <div id="fullName">
+          <input
+            class="name-fields"
+            type="text"
+            id="first-name"
+            name="first-name"
+            placeholder="First Name"
+            required
+          />
+          <input
+            class="name-fields"
+            type="text"
+            id="last-name"
+            name="last-name"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+      </div>
+
+      <div>
+        <label for="Street Address">Address *</label>
+        <div id="address">
+          <input
+            class="address-fields"
+            type="text"
+            id="Street Address"
+            name="Street Address"
+            placeholder="Street Address"
+            required
+          />
+          <input
+            class="address-fields"
+            type="text"
+            id="Street Address Line 2"
+            name="Street Address Line 2"
+            placeholder="Street Address Line 2"
+            required
+          />
+          <input
+            class="address-fields"
+            type="text"
+            id="City"
+            name="City"
+            placeholder="City"
+            required
+          />
+          <input
+            class="address-fields"
+            type="text"
+            id="State/Province"
+            name="State/Province"
+            placeholder="State/Province"
+            required
+          />
+          <input
+            class="address-fields"
+            type="text"
+            id="Postal / Zip Code"
+            name="Postal / Zip Code"
+            placeholder="Postal / Zip Code"
+            required
+          />
+        </div>
+      </div>
+
+      <img src="placeholder.jpg" alt="Placeholder Image" width="500" height="200" />
+
+      <div>
+        <label for="phone-number">Phone Number *</label>
+        <input
+          type="text"
+          id="phone-number"
+          name="phone-number"
+          placeholder="(000) 000-0000"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="ex: email@yahoo.com"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="source">How did you hear about us?</label>
+        <select id="source" name="source">
+          <option value="Please select">Please select</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="specify">Please Specify *</label>
+        <textarea class="form-control" id="Please specify" name="specify" rows="3"></textarea>
+      </div>
+
+      <div>
+        <label for="feedback">Feedback about us:</label>
+        <textarea class="form-control" id="Feedback" name="feedback" rows="3"></textarea>
+      </div>
+
+      <div>
+        <label for="suggestions">Suggestions for further improvement:</label>
+        <textarea class="form-control" id="Suggestions" name="suggestions" rows="3"></textarea>
+      </div>
+
+      <div>
+        <label for="recommendation">Will you be willing to recommend us?</label>
+        <ul>
+          <li><input type="radio" name="recommendation" value="Yes"> Yes</li>
+          <li><input type="radio" name="recommendation" value="No"> No</li>
+          <li><input type="radio" name="recommendation" value="Maybe"> Maybe</li>
+        </ul>
+      </div>
+
+      <div>
+        <label for="reference">Please give reference of any two people whom you feel:</label>
+        <table>
+          <tr>
+            <th></th>
+            <th>Full Name</th>
+            <th>Address</th>
+            <th>Contact Number</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </form>
+
+    <button class="button">Submit</button>
+  </body>
+</html>
+</div>
