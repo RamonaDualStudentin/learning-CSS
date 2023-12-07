@@ -37,7 +37,11 @@ header {
     max-width:100%;
   }
   
-
+#placeholder{
+  width: 500;
+  height: 200;
+  
+}
 
 #companyname {
   margin-top: 10px;
