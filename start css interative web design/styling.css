@@ -4,11 +4,7 @@ body, h1, h2, h3, p, ul {
   padding: 0;
 }
 
-#addressName{
-  margin-top: 10px;
-  text-align: right;
 
-}
 
 body {
   font-family: 'Tahoma', sans-serif;
@@ -49,29 +45,17 @@ header img {
 }
 
 #addressName::before {
-  
   display: block;
   font-weight: bold;
   font-size: 1.2em;
 }
 
-
-
 #addressName > :nth-child(2) {
-  
   margin-top: 5px;
 }
 
-#addressName > :nth-child(3){
-
-}
-
-
-
-#addressName > :nth-child(4) {
-
-} 
-
+#addressName > :nth-child(3),
+#addressName > :nth-child(4),
 #addressName > :nth-child(5) {
   margin-top: 10px;
 }
@@ -106,6 +90,7 @@ form .name-fields {
   display:inline-block; 
   gap: 10px; 
   box-sizing: border-box;
+  
 }
 
 
@@ -171,4 +156,8 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+
+#list-style {
+  list-style: none;
 }
