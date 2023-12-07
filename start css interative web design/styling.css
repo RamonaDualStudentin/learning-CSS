@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul {
 
 
 body {
-  font-family: 'Tahoma', sans-serif;
+  font-family: Tahoma, sans-serif;
   font-size: 13px;
   background-color: #fff;
   color: #333;
@@ -30,18 +30,23 @@ header {
   border-bottom: 1px solid grey; 
 }
 
-header img {
-  max-width: 100%;
-  height: auto;
-}
+
+  #logo img {
+    height: auto; 
+    margin-right: 10px;
+    max-width:100%;
+  }
+  
+
 
 #companyname {
   margin-top: 10px;
 }
 
 #addressName {
-  font-family: Arial, sans-serif;
+  font-family: Tahoma, sans-serif;
   line-height: 1.5;
+  text-align: right;
 }
 
 #addressName::before {
@@ -51,13 +56,17 @@ header img {
 }
 
 #addressName > :nth-child(2) {
+  font-size: smaller;
   margin-top: 5px;
+  font-weight: lighter;
 }
 
 #addressName > :nth-child(3),
 #addressName > :nth-child(4),
 #addressName > :nth-child(5) {
+  font-size: xx-small;
   margin-top: 10px;
+  font-weight: lighter;
 }
 
 
@@ -135,7 +144,7 @@ table {
   border-collapse: collapse;
   margin-top: 20px;
   font-size: 13px;
-  font-family: 'Tahoma', sans-serif;
+  font-family: Tahoma, sans-serif;
   font-weight: bold;
 }
 
