@@ -27,9 +27,11 @@
 
     <form>
       <h2 id="customerDetails">Customer Details:</h2>
+
+      
       <div>
         <label for="first-name">Full Name *</label>
-        <div id="fullName">
+        <div id="fullName" class="name-fields-container">
           <input
             class="name-fields"
             type="text"
@@ -48,10 +50,12 @@
           />
         </div>
       </div>
+      
+   
 
       <div>
         <label for="Street Address">Address *</label>
-        <div id="address">
+        <div id="address" class="address-fields-container">
           <input
             class="address-fields"
             type="text"
@@ -68,22 +72,24 @@
             placeholder="Street Address Line 2"
             required
           />
-          <input
-            class="address-fields"
-            type="text"
-            id="City"
-            name="City"
-            placeholder="City"
-            required
-          />
-          <input
-            class="address-fields"
-            type="text"
-            id="State/Province"
-            name="State/Province"
-            placeholder="State/Province"
-            required
-          />
+          <div class="address-city-state">
+            <input
+              class="address-fields"
+              type="text"
+              id="City"
+              name="City"
+              placeholder="City"
+              required
+            />
+            <input
+              class="address-fields"
+              type="text"
+              id="State/Province"
+              name="State/Province"
+              placeholder="State/Province"
+              required
+            />
+          </div>
           <input
             class="address-fields"
             type="text"
@@ -94,33 +100,37 @@
           />
         </div>
       </div>
+      
       <div id="placeholder">
         <img src="placeholder.jpg" alt="Placeholder Image">
       </div>
 
       
-      <div>
-        <label for="phone-number">Phone Number *</label>
-        <input
-          type="text"
-          id="phone-number"
-          name="phone-number"
-          placeholder="(000) 000-0000"
-          required
-        />
+      <div class="form-container">
+        <div>
+          <label for="phone-number">Phone Number *</label>
+          <input
+            type="text"
+            id="phone-number"
+            name="phone-number"
+            placeholder="(000) 000-0000"
+            required
+          />
+        </div>
+      
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="ex: email@yahoo.com"
+            required
+          />
+        </div>
       </div>
 
-      <div>
-        <label for="email">Email</label>
-        <input
-          type="text"
-          id="email"
-          name="email"
-          placeholder="ex: email@yahoo.com"
-          required
-        />
-      </div>
-
+      <div class="form-container">
       <div>
         <label for="source">How did you hear about us?</label>
         <select id="source" name="source">
@@ -133,9 +143,15 @@
 
       <div>
         <label for="specify">Please Specify *</label>
-        <textarea class="form-control" id="Please specify" name="specify" rows="3"></textarea>
+        <input
+        type="text"
+        id="specify"
+        name="specify"
+        />
+      </div>
       </div>
 
+  
       <div>
         <label for="feedback">Feedback about us:</label>
         <textarea class="form-control" id="Feedback" name="feedback" rows="3"></textarea>
