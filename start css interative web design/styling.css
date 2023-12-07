@@ -43,6 +43,40 @@ header img {
   margin-top: 10px;
 }
 
+#addressName {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#addressName::before {
+  
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+
+#addressName > :nth-child(2) {
+  
+  margin-top: 5px;
+}
+
+#addressName > :nth-child(3){
+
+}
+
+
+
+#addressName > :nth-child(4) {
+
+} 
+
+#addressName > :nth-child(5) {
+  margin-top: 10px;
+}
+
+
 
 form {
   background-color: #fff;
